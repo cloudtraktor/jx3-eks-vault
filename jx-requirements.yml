@@ -17,7 +17,7 @@ spec:
     - key: staging
     - key: production
   ingress:
-    domain: "cloudtraktor.com"
+    domain: ""
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
