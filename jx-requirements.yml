@@ -6,22 +6,22 @@ spec:
     schedule: ""
   cluster:
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+      - adanlessossi
+    environmentGitOwner: cloudtraktor
     gitKind: github
     gitName: github
     gitServer: https://github.com
     provider: eks
   environments:
-  - key: dev
-  - key: staging
-  - key: production
+    - key: dev
+    - key: staging
+    - key: production
   ingress:
-    domain: ""
+    domain: "cloudtraktor.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: ""
+      email: "adanlessossi@hotmail.com"
       enabled: false
       production: false
   repository: nexus
